@@ -9,9 +9,6 @@
     --light-brown: #DFD5A5;
 }
 
-body {
-    width: 100vw;
-}
 
 @font-face {
     src: url(Fonts/Limelight.ttf);
@@ -132,6 +129,42 @@ nav {
     display: flex;
 }
 
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.row_content_1 {
+    grid-column: 1 /1;
+    grid-row: 1/1;
+}
+
+.row_content_3 {
+    grid-column: 1 /1;
+    grid-row: 3/3;
+}
+
+
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_icon {
+    height: 5%;
+    width: 5%
+}
 @media screen and (max-width: 700px) {
     header {
         font-size: 4vw;
