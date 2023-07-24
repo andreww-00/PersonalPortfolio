@@ -55,6 +55,11 @@ h3 {
     font-family: Limelight, sans-serif;
 }
 
+h2 {
+    font-size: 1.50rem;
+    font-family: Limelight, sans-serif;
+}
+
 
 .nav_icon {
     width: 1rem;
@@ -153,11 +158,6 @@ nav {
     /* padding: 0 100px 0 0; */
 }
 
-.proj_image {
-    height: 5%;
-    width: 5%;
-}
-
 .about {
     background-color: var(--secondary-color);
     display: flex;
@@ -168,7 +168,11 @@ nav {
 }
 
 .about > h3 {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+}
+
+.project > h3 {
+    padding-bottom: 10px;
 }
 
 .about_content > p {
@@ -183,16 +187,40 @@ nav {
 }
 
 .project {
+    background-color: var(--brown);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 50px 10%;
 }
 
 .grid {
     display: grid;
+    justify-content: center;
+    align-items: center;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+    font-family: Robotomono, sans-serif;
+}
+
+.proj_image {
+    justify-self: center;
+    max-width: 40vw;
+    height: auto;
+    object-fit: contain;
+}
+
+.proj_image, .row_content {
+    padding: 30px 0;
+}
+
+.row_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
 }
 
 .row_content_1 {
@@ -205,6 +233,28 @@ nav {
     grid-row: 3/3;
 }
 
+.row_content > h2 {
+    align-self: flex-start;
+    padding-bottom: 25px;
+}
+
+.row_content > p {
+    padding-bottom: 30px;
+} 
+
+.button_container {
+   display: flex;  
+   align-items: flex-start;
+   width: 100%;
+}
+
+button {
+    padding: 10px 10px;
+    background-color: var(--brown);
+    border: white solid 1px; 
+    border-radius: 10px;
+    margin: 0 15px 0 0;
+}
 
 
 .contact {
@@ -247,6 +297,11 @@ footer {
 
     .about_content > p {
         padding: 20px 0 0 0;
+        font-size: 4vw;
+    }
+
+    .about > h3, .project > h3 {
+        font-size: 5.5vw; 
     }
 
     .portrait {
@@ -256,5 +311,31 @@ footer {
 
     .logo {
         display: none;
+    }
+
+    .grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .proj_image {
+        max-width: 80vw;
+        padding-bottom: 0;
+    }
+
+    .row_content {
+        padding-top: 5px;
+    }
+
+    .row_content > h2 {
+        font-size: 5vw;
+    }
+
+    .row_content > p {
+        font-size: 4vw;
+    }
+
+    button {
+        width: 100%;
     }
 }
