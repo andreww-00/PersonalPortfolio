@@ -23,14 +23,14 @@
                       50 C 22.224 50 22 49.776 22 49.5 L 22 30.607422 L 35.359375 19.445312 C 35.544875 19.290313 35.77225 19.212891
                        36 19.212891 z"/>
                     </svg>
-                    <p><a href="#title">Home</a></p>
+                    <p><a class='nav_animation' href="#title">Home</a></p>
             </div>
             <div class="link_container">
                 <svg class="nav_icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFFFFF" class="bi bi-file-person" viewBox="0 0 16 16">
                     <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
                     <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
                   </svg>
-                  <p><a href="#about">About</a></p>
+                  <p><a class='nav_animation' href="#about">About</a></p>
             </div>
             <div class="link_container">
                 <svg class="nav_icon" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" stroke="#ffffff" width="20" 
@@ -41,13 +41,13 @@
                             4.04 4 5 4 5zm4.88 0h-4s.42-1 .87-1h2.13c.48 0 1 1 1 1zM2.67 16.25c-.31.47-.76.75-1.26.75h15.73c.54 0 
                             .92-.31 1.03-.83.44-2.19 1.68-8.44 1.68-8.44.07-.5-.3-.73-.62-.73H16V5.53c0-.16-.26-.53-.66-.53h-3.76c-.52
                              0-.87.58-.87.58L10 7H5.59c-.32 0-.63.19-.69.5 0 0-1.59 6.7-1.72 7.33-.07.37-.22.99-.51 1.42zM15.38 7H11s.58-1 1.13-1h2.29c.71 0 .96 1 .96 1z"></path> </g> </g></svg>
-                <p></p><a href="#project">Projects</a></p>
+                <p></p><a class='nav_animation' href="#project">Projects</a></p>
             </div>
             <div class="link_container">
                 <svg class="nav_icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone-fill" viewBox="0 0 16 16">
                     <path d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z"/>
                   </svg>
-                  <p></p><a href="#footer">Contact</a></p>
+                  <p></p><a class='nav_animation' href="#footer">Contact</a></p>
             </div>
         </nav>
     </header>
@@ -62,7 +62,12 @@
         <h3>About me!</h3>
         <div class="about_content">
             <img class="portrait" src="Images/Portrait.jpg" alt="Picture of me" >
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            <div class="about_text">
+                <p>Hey there! I'm Andrew Webster, a self-taught frontend developer located in Virginia, United States. By occupation, I am a chemist, and I have a profound fascination with understanding how things work. My goal is to blend my knowledge of chemistry and computer science to contribute to the development of software and technology that can aid scientific research and deepen our understanding of both fields.</p>
+                <p>At the moment, I possess expertise in HTML/CSS and Javascript, and I am also proficient in SQL with a working knowledge of Python. However, my thirst for knowledge means that this list will only expand as I continue to learn and grow.</p>
+                <p>Beyond my professional journey and self-teaching endeavors, I'm an enthusiastic volleyball player, hiker, and cooking enthusiast. In my downtime, I enjoy indulging in games, be it Dungeons and Dragons or video games.</p>
+                <p>Let's keep pushing the boundaries of knowledge and innovation together!</p>
+            </div>
         </div>
     </div>
     <div class="project" id="project">
@@ -70,8 +75,8 @@
         <div class="grid">
             <img class ="proj_image_1 proj_image" src="Images/Library.png" alt="screenshot of libray app">
             <div class="row_content_1 row_content">  
-                <h2>Project: title</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+                <h2>Library App:</h2>
+                <p>An application which serves as a bookshelf showcasing which books you’ve read and plan on reading, as well as information about the book and author. Made with HTML/CSS/Javascript</p>
                 <div class='button_container'>
                     <button onclick="window.location.href='https://andreww-00.github.io/Library/';">View Site</button>
                     <button onclick="window.location.href='https://github.com/andreww-00/Library';">Code</button>
@@ -79,8 +84,8 @@
             </div>
             <img class ="proj_image_2 proj_image" src="Images/TIc Tac Toe.png" alt="screenshot of Tic Tac Toe app">
             <div class="row_content_2 row_content">  
-                <h2>Project: title</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+                <h2>Tic-Tac-Toe:</h2>
+                <p>Recreation of the game tic-tac-toe, made using the module pattern in Javascript, and a simple UI created with HTML/CSS </p>
                 <div class='button_container'>
                     <button onclick="window.location.href='https://andreww-00.github.io/Tic-Tac-Toe/';">View Site</button>
                     <button onclick="window.location.href='https://github.com/andreww-00/Tic-Tac-Toe/';">Code</button>
@@ -88,8 +93,8 @@
             </div>
             <img class ="proj_image_3 proj_image" src="Images/calc.png" alt="screenshot of calculator app">
             <div class="row_content_3 row_content"> 
-                <h2>Project: title</h2> 
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+                <h2>Calculator:</h2> 
+                <p>An app which can do various mathematical operations handled by javascript, also allows for chaining of operations together. </p>
                 <div class='button_container'>
                     <button onclick="window.location.href='https://andreww-00.github.io/TOP-Calculator/';">View Site</button>
                     <button onclick="window.location.href='https://github.com/andreww-00/TOP-Calculator';">Code</button>
@@ -100,10 +105,10 @@
     <footer id="footer">
         <h3>Get in touch:</h3>
         <div class="footer_icons">
-            <p><a class="contact_icon"  href="https://www.linkedin.com/in/andrew-webster-57a1991b2/"><svg viewBox="0 0 128 128" fill="#FFFFFF">
+            <p><a class="contact_icon"  href="https://www.linkedin.com/in/andrew-webster-57a1991b2/"><svg class="footer_animation" viewBox="0 0 128 128" fill="#FFFFFF">
                 <path d="M116 3H12a8.91 8.91 0 00-9 8.8v104.42a8.91 8.91 0 009 8.78h104a8.93 8.93 0 009-8.81V11.77A8.93 8.93 0 00116 3zM39.17 107H21.06V48.73h18.11zm-9-66.21a10.5 10.5 0 1110.49-10.5 10.5 10.5 0 01-10.54 10.48zM107 107H88.89V78.65c0-6.75-.12-15.44-9.41-15.44s-10.87 7.36-10.87 15V107H50.53V48.73h17.36v8h.24c2.42-4.58 8.32-9.41 17.13-9.41C103.6 47.28 107 59.35 107 75z"></path>
             </svg> </a></p>
-            <p><a class="contact_icon" href="https://github.com/andreww-00"><svg  xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" viewBox="0 0 16 16">
+            <p><a class="contact_icon" href="https://github.com/andreww-00"><svg  class="footer_animation" xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" viewBox="0 0 16 16">
                 <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
             </svg></a></p>
         </div>  
