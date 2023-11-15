@@ -183,6 +183,10 @@ nav {
     padding-bottom: 10px;
 }
 
+.research > h3 {
+    padding-bottom: 60px;
+}
+
 .about_text > p {
     padding: 0 0 10px 50px;
     font-family: Robotomono, sans-serif;
@@ -257,6 +261,40 @@ nav {
 .row_content > p {
     padding-bottom: 30px;
 } 
+
+.research {
+    /* background-color: var(--brown); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 10%;
+    background-color: var(--secondary-color);
+}
+
+.researchText {
+    font-family: Robotomono, sans-serif;
+    
+}
+
+.researchText > p {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.research-img {
+    max-width: 60vw;
+    padding-bottom: 30px;
+}
+
+.research > h2 {
+    padding-bottom: 45px;
+}
+
+.researchText > ul 
+{
+    text-align: center;
+}
 
 .button_container {
    display: flex;  
